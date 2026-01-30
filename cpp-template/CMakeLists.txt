@@ -19,20 +19,20 @@ set(source_dir src)
 file(GLOB_RECURSE sources ${source_dir}/*.cpp ${source_dir}/*.c ${source_dir}/*.h)
 
 add_executable(main ${sources})
-target_include_directories(main PRIVATE ${CMAKE_SOURCE_DIR}/src)
+target_include_directories(main PRIVATE ${CMAKE_SOURCE_DIR}/src ${CMAKE_SOURCE_DIR}/include)
 
 # Enable for Raylib
-# find_package(raylib REQUIRED)
-# target_link_libraries(main raylib)
+find_package(raylib REQUIRED)
+target_link_libraries(main raylib)
 
 # Enable for SDL2
-# find_package(SDL2 REQUIRED)
-# target_link_libraries(main ${SDL2_LIBRARIES})
+find_package(SDL2 REQUIRED)
+target_link_libraries(main ${SDL2_LIBRARIES})
 #
 # Enable for OpenGL
-find_package(OpenGL REQUIRED)
-find_package(glfw3 REQUIRED)
-target_link_libraries(main OpenGL::GL glfw)
+# find_package(OpenGL REQUIRED)
+# find_package(glfw3 REQUIRED)
+# target_link_libraries(main OpenGL::GL glfw)
 
 option(DEBUG_TEST "Enable debug test mode" OFF)
 

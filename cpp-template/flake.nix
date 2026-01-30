@@ -18,6 +18,7 @@ in
         sdl2-compat
         cmake
         clang-tools
+        raylib
     ];
     shellHook = ''
         echo "Welcome to the devShell!"
