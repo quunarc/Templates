@@ -14,8 +14,8 @@ in
     devShells.x86_64-linux.default = pkgs.mkShell {
     buildInputs = with pkgs; [
         gcc
-        glfw3
-        sdl2-compat
+        SDL2
+        sdl3
         cmake
         clang-tools
         raylib

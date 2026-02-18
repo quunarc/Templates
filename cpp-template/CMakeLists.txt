@@ -28,6 +28,10 @@ target_link_libraries(main raylib)
 # Enable for SDL2
 find_package(SDL2 REQUIRED)
 target_link_libraries(main ${SDL2_LIBRARIES})
+
+# Enable for SDL3
+# find_package(SDL3 REQUIRED)
+# target_link_libraries(main PRIVATE SDL3::SDL3)
 #
 # Enable for OpenGL
 # find_package(OpenGL REQUIRED)
@@ -39,4 +43,9 @@ option(DEBUG_TEST "Enable debug test mode" OFF)
 if(DEBUG_TEST)
     message(STATUS "${Red}Debug test mode is ON${ColourReset}")
     target_compile_definitions(main PRIVATE DEBUG_TEST)
+endif()
+
+if(CMAKE_BUILD_TYPE MATCHES Debug)
+    message(STATUS "${Red}Debug mode is ON${ColourReset}")
+    target_compile_definitions(main PRIVATE DEBUG)
 endif()
