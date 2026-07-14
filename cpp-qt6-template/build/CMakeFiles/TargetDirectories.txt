@@ -1,0 +1,5 @@
+/home/quun/Development/C++/Playground/Qt6-test/build/CMakeFiles/main.dir
+/home/quun/Development/C++/Playground/Qt6-test/build/CMakeFiles/edit_cache.dir
+/home/quun/Development/C++/Playground/Qt6-test/build/CMakeFiles/rebuild_cache.dir
+/home/quun/Development/C++/Playground/Qt6-test/build/CMakeFiles/main_autogen_timestamp_deps.dir
+/home/quun/Development/C++/Playground/Qt6-test/build/CMakeFiles/main_autogen.dir

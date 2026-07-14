@@ -1,6 +1,6 @@
 {
 
-description = "Example flake with a devShell";
+description = "Qt test";
 
 inputs.nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
 
@@ -14,15 +14,11 @@ in
     devShells.x86_64-linux.default = pkgs.mkShell {
     buildInputs = with pkgs; [
         gcc
-        SDL2
-        sdl3
         cmake
         clang-tools
-        raylib
+
+        kdePackages.qtbase
     ];
-    shellHook = ''
-        echo "Welcome to the devShell!"
-    '';
     };
 };
 

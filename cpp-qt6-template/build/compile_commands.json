@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/quun/Development/C++/Playground/Qt6-test/build",
+  "command": "/nix/store/r9wbjib6xxjkyb9yvjvrkl4sq61i2lyn-gcc-wrapper-15.2.0/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/quun/Development/C++/Playground/Qt6-test/build/main_autogen/include -I/home/quun/Development/C++/Playground/Qt6-test/src -I/home/quun/Development/C++/Playground/Qt6-test/include -isystem /nix/store/jq8mka96cq81mfzm4svzmbalna8asqfn-qtbase-6.10.1/include/QtWidgets -isystem /nix/store/jq8mka96cq81mfzm4svzmbalna8asqfn-qtbase-6.10.1/include/QtCore -isystem /nix/store/jq8mka96cq81mfzm4svzmbalna8asqfn-qtbase-6.10.1/mkspecs/linux-g++ -isystem /nix/store/jq8mka96cq81mfzm4svzmbalna8asqfn-qtbase-6.10.1/include/QtGui -O3 -DNDEBUG -fPIC -o CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o -c /home/quun/Development/C++/Playground/Qt6-test/build/main_autogen/mocs_compilation.cpp",
+  "file": "/home/quun/Development/C++/Playground/Qt6-test/build/main_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/quun/Development/C++/Playground/Qt6-test/build",
+  "command": "/nix/store/r9wbjib6xxjkyb9yvjvrkl4sq61i2lyn-gcc-wrapper-15.2.0/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/quun/Development/C++/Playground/Qt6-test/build/main_autogen/include -I/home/quun/Development/C++/Playground/Qt6-test/src -I/home/quun/Development/C++/Playground/Qt6-test/include -isystem /nix/store/jq8mka96cq81mfzm4svzmbalna8asqfn-qtbase-6.10.1/include/QtWidgets -isystem /nix/store/jq8mka96cq81mfzm4svzmbalna8asqfn-qtbase-6.10.1/include/QtCore -isystem /nix/store/jq8mka96cq81mfzm4svzmbalna8asqfn-qtbase-6.10.1/mkspecs/linux-g++ -isystem /nix/store/jq8mka96cq81mfzm4svzmbalna8asqfn-qtbase-6.10.1/include/QtGui -O3 -DNDEBUG -fPIC -o CMakeFiles/main.dir/src/main.cpp.o -c /home/quun/Development/C++/Playground/Qt6-test/src/main.cpp",
+  "file": "/home/quun/Development/C++/Playground/Qt6-test/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/quun/Development/C++/Playground/Qt6-test/build",
+  "command": "/nix/store/r9wbjib6xxjkyb9yvjvrkl4sq61i2lyn-gcc-wrapper-15.2.0/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/quun/Development/C++/Playground/Qt6-test/build/main_autogen/include -I/home/quun/Development/C++/Playground/Qt6-test/src -I/home/quun/Development/C++/Playground/Qt6-test/include -isystem /nix/store/jq8mka96cq81mfzm4svzmbalna8asqfn-qtbase-6.10.1/include/QtWidgets -isystem /nix/store/jq8mka96cq81mfzm4svzmbalna8asqfn-qtbase-6.10.1/include/QtCore -isystem /nix/store/jq8mka96cq81mfzm4svzmbalna8asqfn-qtbase-6.10.1/mkspecs/linux-g++ -isystem /nix/store/jq8mka96cq81mfzm4svzmbalna8asqfn-qtbase-6.10.1/include/QtGui -O3 -DNDEBUG -fPIC -o CMakeFiles/main.dir/src/window.cpp.o -c /home/quun/Development/C++/Playground/Qt6-test/src/window.cpp",
+  "file": "/home/quun/Development/C++/Playground/Qt6-test/src/window.cpp",
+  "output": "CMakeFiles/main.dir/src/window.cpp.o"
+}
+]
